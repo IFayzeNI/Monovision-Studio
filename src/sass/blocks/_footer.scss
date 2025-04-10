@@ -1,0 +1,38 @@
+.footer {
+    padding: 85px $footer-padding-inline;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+    font-size: 20px;
+    color: $light-color;
+
+    &__social {
+        display: flex;
+        gap: 30px;
+    }
+
+    li {
+        width: 32px;
+        height: 32px;
+        border: 1px solid $light-color;
+    }
+
+    &__link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+
+        span {
+            font-size: 22px;
+            color: #fff;
+        }
+    }
+
+    &__addr {
+        font-style: normal;
+    }
+}
